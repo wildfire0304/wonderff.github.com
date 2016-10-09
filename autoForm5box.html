@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>自动生成5个div</title>
+	<style>
+
+		body { text-align: center;}
+		input { width: 80px; height: 26px; text-align: center; background-color: #f08080; border: 2px solid #f08080; border-radius: 10px; font-size: 14px; color: #fff; outline: none;}
+		input:hover { background-color: #ffa07a; color: #fff; border: 2px solid #ffa07a;}
+		.wrap { width: 500px; height: 500px; margin: 10px auto; background-color: #f08080; border: 10px solid #f08080; position: relative;}
+		span { position: absolute; width: 100px; height: 100px; background-color: #fff;}
+	</style>
+	<script>
+		window.onload = function() {
+			var wrap = document.querySelector("div");
+			var btn = document.querySelector("input");
+			var dir = ['top','right','bottom','left'];
+			var n = 0;
+			btn.onclick = function() {
+				wrap.innerHTML = '<span></span><span></span><span></span><span></span><span></span>';
+				n++;
+				var span = document.querySelectorAll("span");
+				console.dir('span');
+				for (var i = 0; i < span.length; i++) {	
+					span[i].style[dir[n%4]] = 100 * i + 'px';
+					span[i].style[dir[(n+1)%4]] = 100 * ( 2 - Math.abs(2-i)) + 'px';
+				};
+			};
+		};
+	</script>
+
+
+</head>
+<body>
+	<input type="button" value="自动生成" />
+	<div class="wrap">
+		
+	</div>
+</body>
+</html>
