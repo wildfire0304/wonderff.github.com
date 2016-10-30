@@ -39,7 +39,6 @@
 
 	pD (); 
 	//_______________________________________需求_______________________________
-	//_______________________________________需求_______________________________
 
 	//轮播
 	function carousel (index) {
@@ -112,7 +111,7 @@
 				if (_add >= 30) {
 					clearInterval(group.timer);
 				}
-			}, 150);
+			}, 200);
 			// 这个只需要运动 30个 耗时  6s
 		} 
 		//逆时针的实现
@@ -128,14 +127,14 @@
 				} else {
 					clearInterval(group.timer);
 				}
-			}, 16);
+			}, 20);
 		}
 	}
 	//时钟的自动转动 
 	function clockTurn (num){
 		num %= 10;
 		var svgwrap_2 = document.querySelector("#svgwrap_2");
-		svgwrap_2.style.transition = ".6s linear";
+		svgwrap_2.style.transition = ".8s linear";
 		svgwrap_2.style.transform = "rotate(" + num*30 + "deg)";
 		svgwrap_2.de = num*30;
 	}

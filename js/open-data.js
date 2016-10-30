@@ -6,9 +6,36 @@ var openData = {
 			"title":["SUN","LOUNGER"],
 			"img":"./img/product/sun_lounger/sun_lounger.png",
 			"shadow-pic":"./img/product/sun_lounger/sun_lounger_shadow.png",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"color":"#fbda52",
-			"toC": "#6091ad"
+			"toC": "#6091ad",
+			"details":[
+				"../img/product/sun_lounger/details/sdraio_locus_solus_1.jpg",
+				"../img/product/sun_lounger/details/sdraio_locus_solus_1.jpg",
+				"../img/product/sun_lounger/details/sdraio_locus_solus_1.jpg"
+				],
+			"type":[
+				{
+					"color":"#fbda52",
+					"src":"../img/product/sun_lounger/types/yellow_sdraio_prendisole.png"
+				},
+				{
+					"color":"#de6c40",
+					"src":"../img/product/sun_lounger/types/red_sdraio_prendisole.png"
+				},
+				{
+					"color":"#22548c",
+					"src":"../img/product/sun_lounger/types/blue_sdraio_prendisole.png"
+				},
+				{
+					"color":"#54943e",
+					"src":"../img/product/sun_lounger/types/green_sdraio_prendisole.png"
+				},
+				{
+					"color":"eae7dc",
+					"src":"../img/product/sun_lounger/types/white_sdraio_prendisole.png"
+				}
+			]
 
 		},
 		{
@@ -16,7 +43,7 @@ var openData = {
 			"title":["FLOOR","LAMP"],
 			"img":"./img/product/floor_lamp/floor_lamp.png",
 			"shadow-pic":"./img/product/floor_lamp/floor_lamp_shadow.png",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"color":"#de6c40",
 			"toC": "#a0da98"
 
@@ -27,7 +54,7 @@ var openData = {
 			"img":"./img/product/dining_table/dining_table.png",
 			"shadow-pic":"./img/product/dining_table/dining_table_shadow.png",
 			"color":"#54943f",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"toC": "#e7b589"
 		},
 		{
@@ -35,7 +62,7 @@ var openData = {
 			"title":["LOVESEAT"],
 			"img":"./img/product/loveseat/loveseat.png",
 			"shadow-pic":"./img/product/loveseat/loveseat_shadow.png",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"color":"#22548c",
 			"toC": "#e4c883"
 		},
@@ -44,7 +71,7 @@ var openData = {
 			"title":["CHAIR"],
 			"img":"./img/product/chair/chair.png",
 			"shadow-pic":"./img/product/chair/chair_shadow.png",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"color":"#fbda52",
 			"toC": "#68c174"
 		},
@@ -53,7 +80,7 @@ var openData = {
 			"title":["POUFFE"],
 			"img":"./img/product/pouffe/pouffe.png",
 			"shadow-pic":"./img/product/pouffe/pouffe_shadow.png",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"color":"#22548c",
 			"toC": "#de9092"
 		},
@@ -62,7 +89,7 @@ var openData = {
 			"title":["ARMCHAIR"],
 			"img":"./img/product/armchair/armchair.png",
 			"shadow-pic":"./img/product/armchair/armchair_shadow.png",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"color":"#eae7dc",
 			"toC": "#e85a4f"
 		},
@@ -71,7 +98,7 @@ var openData = {
 			"title":["COMMING","SOON"],
 			"img":"./img/product/new_pro1/new_pro1.png",
 			"shadow-pic":"./img/product/new_pro1/new_pro1_shadow.png",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"color":"#de6c40",
 			"toC": "#a0da98"
 		},
@@ -80,7 +107,7 @@ var openData = {
 			"title":["COMMING","SOON"],
 			"img":"./img/product/new_pro2/new_pro2.png",
 			"shadow-pic":"./img/product/new_pro2/new_pro2_shadow.png",
-			"link":"#",
+			"link":"./sunlounger.html",
 			"color":"#54943f",
 			"toC": "#e7b589"
 		},

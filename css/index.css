@@ -399,4 +399,34 @@ div#svgwrap .clock-module {
 }
 
 
+#footer {
+	position: absolute;
+	right:0px;
+	bottom: 0px;
+	z-index: 6;
+	font-size: 14px;
+	font-family: cervoNorm;
+	font-weight: bold;
+	letter-spacing: 4px;
+	color: #999;
+	padding: 30px;
+}
+
+#footer .footer-right p{
+	line-height: 30px;
+	text-align: right;
+}
+
+#footer .footer-right a {
+	color:#333;
+	font-weight: bold;
+}
+#footer .footer-right a.active {
+	color: #999;
+}
+
+
+
+
+
 
